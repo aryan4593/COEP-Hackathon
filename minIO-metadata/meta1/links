@@ -1,0 +1,1 @@
+http://localhost:5000/metadata/parquet/bucket?bucketName=data&fileKey=titanic.parquet

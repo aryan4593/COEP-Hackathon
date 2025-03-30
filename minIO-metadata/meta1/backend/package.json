@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.750.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "delta": "^3.0.5",
+    "delta-lib": "^2.0.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "parquetjs": "^0.11.2",
+    "parquets": "^0.10.10",
+    "sf": "^0.2.0"
+  }
+}
