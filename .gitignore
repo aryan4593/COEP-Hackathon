@@ -16,6 +16,10 @@ dist/
 build/
 dist/
 
+# Nested Git repositories
+**/.git/
+**/.git
+
 # Python
 __pycache__/
 *.py[cod]
